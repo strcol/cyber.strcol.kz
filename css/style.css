@@ -1,0 +1,249 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Roboto, sans-serif;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.header-logo {
+    margin-top: 50px;
+}
+
+.logo-text {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    line-height: 30px;
+    margin-top: 10px;
+}
+
+.logo-text span {
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+
+.no-webp .intro {
+    background-color: #000000;
+    background-image: url(../images/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.webp .intro {
+    background-color: #000000;
+    background-image: url(../images/background.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.intro__inner {
+    margin-top: 200px;
+}
+
+.intro-offer {
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.intro-offer span {
+    font-weight: 400;
+    letter-spacing: -.4px;
+}
+
+.cs {
+    font-weight: 700 !important;
+    letter-spacing: 3.8px !important;
+}
+
+.intro-subtitle {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.intro-help {
+    margin-top: 10px;
+}
+
+.intro-help a {
+    font-family: Raleway, sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.intro-subtitle span {
+    font-family: Roboto, sans-serif;
+}
+
+.send-title {
+    color: #ffffff;
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: .034em;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.timer {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 101px;
+    margin-bottom: 50px;
+}
+
+.send-btn {
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: .055em;
+    text-align: center;
+}
+
+.send-btn a {
+    color: #010619;
+    background-color: #ffffff;
+    padding: 7px 24px;
+    transition: .3s ease-in-out;
+}
+
+.send-btn a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #010619;
+    border: 2px solid #ffffff;
+}
+
+.logo-text {
+    font-size: 40px;
+    letter-spacing: 0 !important;
+    line-height: 1.1 !important;
+}
+
+.mobile {
+    display: none;
+}
+
+.desktop {
+    display: block;
+}
+
+.contacts {
+    color: #ffffff;
+    font-size: 20px;
+    text-align: left !important;
+}
+
+@media (max-width: 992px) {
+    .logo-text {
+        color: #ffffff;
+        font-size: 30px;
+        font-weight: 700;
+        letter-spacing: 3px;
+        line-height: 30px;
+        margin-top: 10px;
+    }
+
+    .logo-text span {
+        font-size: 26px;
+        text-transform: uppercase;
+        letter-spacing: 0;
+    }
+
+    .intro__inner {
+        margin-top: 200px;
+    }
+
+    .intro-offer {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    .header-logo {
+        margin-top: 20px;
+    }
+
+    .intro-subtitle {
+        margin-top: 0;
+        font-size: 16px;
+    }
+
+    .send-title {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0;
+        margin: 20px 0 20px 0;
+    }
+
+    .timer {
+        font-size: 30px;
+        width: 100%;
+        line-height: normal;
+        margin-bottom: 25px;
+    }
+
+    .send-btn {
+        font-size: 16px;
+    }
+
+    .logo-text {
+        font-size: 16px !important;
+    }
+
+    .small {
+        font-size: 14px !important;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
